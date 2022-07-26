@@ -1,0 +1,15 @@
+@font-face { 
+    font-family: 'Gilroy', sans-serif; // С большой буквы, если в папке fonts с большой
+    src: url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+         url('../fonts/Gilroy-Bold.woff') format('woff'); /* все современные браузеры, IE9+ */
+    font-weight: 400;
+    font-display: swap; // Пока шрифт не отображается, задействовать системный шрифт
+}
+
+@font-face { 
+    font-family: 'Galien', sans-serif; // С большой буквы, если в папке fonts с большой
+    src: url('../fonts/Galien-Regular.woff2') format('woff2'),
+         url('../fonts/Galien-Regular.woff') format('woff'); /* все современные браузеры, IE9+ */
+    font-weight: 400;
+    font-display: swap; // Пока шрифт не отображается, задействовать системный шрифт
+}

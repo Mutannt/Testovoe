@@ -1,0 +1,15 @@
+$blue_01: #1F3F68;
+$blue_02: #316099;
+$blue_03: #356EAD;
+$blue_04: #5A98D0;
+
+
+
+@mixin f500{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+@mixin f700{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}

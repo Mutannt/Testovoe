@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: $blue_01;
+}
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: $blue_01;
+}
+.heder-container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+    background-color: #fff;
+}
+.container {
+    max-width: 970px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.container-fluid {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+@media(max-height:720) {
+    .container-fluid{
+        padding: 0 15px;
+    }
+}
